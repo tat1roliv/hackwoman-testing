@@ -8,6 +8,30 @@
     color: #626060;
     font-family: 'Sawarabi Gothic';
 }
+.grafismo-bottom {
+    position: absolute;
+    bottom:0;
+    left: 0; 
+    div{
+        width: 100px;
+        height: 100px;   
+        background: #CB997E;
+        opacity: 0.4;
+        border-radius: 0 100% 0 0;
+    }
+}
+.grafismo-topo {    
+    position: absolute;
+    top:0;
+    right: 0; 
+    div{
+    width: 100px;
+    height: 100px;   
+    background: #CB997E;
+    opacity: 0.4;
+    border-radius: 0 0 0 100%;
+    }
+}
 
 form {
     width: 50%;

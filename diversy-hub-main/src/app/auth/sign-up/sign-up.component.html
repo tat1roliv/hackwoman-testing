@@ -1,5 +1,8 @@
 <div class="screen__container">
     <div class="login_background__container">
+        <div class="grafismo-topo">
+            <div></div>
+         </div>
         <div class="login_background__logo">
             <img src="../../../assets/auth/logo.png" alt="">
         </div>
@@ -14,6 +17,9 @@
         </div>
     </div>
     <div class="form__container">
+        <div class="grafismo-bottom">
+            <div></div>
+         </div>
         <form [formGroup]="signUpForm" (ngSubmit)="onSignUp()">
             <div class="form__user_img">
                 <img src="../../../assets/auth/user.png" alt="">
@@ -43,16 +49,16 @@
                 <div class="form-group">
                     <div class="form-group form_input__container">
                         <!-- <label class="active " for="email ">Seu email</label> -->
-                        <input id="name " type="text " class="form_input form-control " placeholder="NOME DA EMPRESA" name="name" ngModel required formControlName="name">
+                        <input id="name " type="text " class="form_input form-control " placeholder="Empresa" name="name" ngModel required formControlName="name">
                     </div>
                     <div class="form-group form_input__container">
                         <!-- <label class="active " for="email ">Seu email</label> -->
-                        <input id="email " type="text " class="form_input form-control " placeholder="EMAIL" name="email" ngModel required formControlName="email">
+                        <input id="email " type="text " class="form_input form-control " placeholder="E-mail" name="email" ngModel required formControlName="email">
                     </div>
                     <div class="form-group form_input__container">
                         <!-- <label class="active" for="password">Sua senha</label> -->
                         <div class="input-group">
-                            <input [type]="fieldTextType ? 'text' : 'password'" id="password1" type="password1" class="form_input form-control" placeholder="SENHA" name="password1" ngModel required formControlName="password1">
+                            <input [type]="fieldTextType ? 'text' : 'password'" id="password1" type="password1" class="form_input form-control" placeholder="Senha" name="password1" ngModel required formControlName="password1">
                             <div class="input-group-append">
                                 <span class="input-group-text">
                                     <span class="material-icons" (click)="toggleFieldTextType()">
@@ -65,7 +71,7 @@
                     <div class="form-group form_input__container">
                         <!-- <label class="active" for="password">Sua senha</label> -->
                         <div class="input-group">
-                            <input [type]="fieldTextType ? 'text' : 'password'" id="password2" type="password2" class="form_input form-control" placeholder="DIGITE A SENHA NOVAMENTE" name="password2" ngModel required formControlName="password2">
+                            <input [type]="fieldTextType ? 'text' : 'password'" id="password2" type="password2" class="form_input form-control" placeholder="Confirme sua senha" name="password2" ngModel required formControlName="password2">
                             <div class="input-group-append">
                                 <span class="input-group-text">
                                     <span class="material-icons" (click)="toggleFieldTextType()">
@@ -84,16 +90,16 @@
                 <div class="form-group">
                     <div class="form-group form_input__container">
                         <!-- <label class="active " for="email ">Seu email</label> -->
-                        <input id="name " type="text " class="form_input form-control " placeholder="NOME COMPLETO" name="name" ngModel required formControlName="name">
+                        <input id="name " type="text " class="form_input form-control " placeholder="Nome" name="name" ngModel required formControlName="name">
                     </div>
                     <div class="form-group form_input__container">
                         <!-- <label class="active " for="email ">Seu email</label> -->
-                        <input id="email " type="text " class="form_input form-control " placeholder="EMAIL" name="email" ngModel required formControlName="email">
+                        <input id="email " type="text " class="form_input form-control " placeholder="E-mail" name="email" ngModel required formControlName="email">
                     </div>
                     <div class="form-group form_input__container">
                         <!-- <label class="active" for="password">Sua senha</label> -->
                         <div class="input-group">
-                            <input [type]="fieldTextType ? 'text' : 'password'" id="password1" type="password1" class="form_input form-control" placeholder="SENHA" name="password1" ngModel required formControlName="password1">
+                            <input [type]="fieldTextType ? 'text' : 'password'" id="password1" type="password1" class="form_input form-control" placeholder="Senha" name="password1" ngModel required formControlName="password1">
                             <div class="input-group-append">
                                 <span class="input-group-text">
                                     <span class="material-icons" (click)="toggleFieldTextType()">
@@ -106,7 +112,7 @@
                     <div class="form-group form_input__container">
                         <!-- <label class="active" for="password">Sua senha</label> -->
                         <div class="input-group">
-                            <input [type]="fieldTextType ? 'text' : 'password'" id="password2" type="password2" class="form_input form-control" placeholder="DIGITE A SENHA NOVAMENTE" name="password2" ngModel required formControlName="password2">
+                            <input [type]="fieldTextType ? 'text' : 'password'" id="password2" type="password2" class="form_input form-control" placeholder="Confirme sua senha" name="password2" ngModel required formControlName="password2">
                             <div class="input-group-append">
                                 <span class="input-group-text">
                                     <span class="material-icons" (click)="toggleFieldTextType()">
