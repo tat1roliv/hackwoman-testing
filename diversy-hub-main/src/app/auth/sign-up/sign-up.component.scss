@@ -1,9 +1,12 @@
 @import '../login/login.component.scss';
+
 .radio_group {
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
     justify-content: space-evenly;
     width: 100%;
+    color: #626060;
+    font-family: 'Sawarabi Gothic';
 }
 
 form {
