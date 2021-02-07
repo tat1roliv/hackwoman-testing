@@ -16,7 +16,7 @@
     flex-direction: row;
 
 }
-.menu-nav li a {
+.menu-nav li a { 
     color: #626060;
     text-transform: uppercase;
     font-size: 12px;
@@ -24,10 +24,8 @@
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
-    height: 50px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #626060;
     font-family: 'Roboto';
 }
 .menu li a:hover{
