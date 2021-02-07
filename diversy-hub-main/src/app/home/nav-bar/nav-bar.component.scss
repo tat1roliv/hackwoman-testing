@@ -1,8 +1,11 @@
 
 .menu-nav{
-    flex: 1;
+   /* flex: 1;*/
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    top: 50px;
+    right: 50px;
 }
 .menu-nav ul,
 .menu-nav li{
@@ -10,6 +13,8 @@
 }
 .menu-nav ul{
     display: flex;
+    flex-direction: row;
+
 }
 .menu-nav li a {
     color: #626060;
@@ -32,4 +37,31 @@
 .menu.active a{
     border-bottom: 1px solid #CB997E;
     color: #cccccc;
+}
+.button__container {
+    display: flex;
+    justify-content: center;    
+    text-transform: uppercase;
+    width: 80%;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.btn-entrar{
+    background:#CB997E;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #626060;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+}
+.btn-cadastrar{
+    background:#626060;
+    width: 200px;
+    height: 20px;
+    border: 1px solid #626060;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
 }
