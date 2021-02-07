@@ -1,34 +1,28 @@
 .grafismo-bottom {
-
-    width: 100px;
-    height: 100px;   
-    background: #CB997E;
-    opacity: 0.4;
-    border-radius: 50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    display: flex;
     position: absolute;
-    overflow-y: hidden;
-    left: 0;
-    bottom: 0;
-    /**/
+    bottom:0;
+    left: 0; 
+    div{
+        width: 100px;
+        height: 100px;   
+        background: #CB997E;
+        opacity: 0.4;
+        border-radius: 0 100% 0 0;
+    }
 }
-.grafismo-topo {
-
+.grafismo-topo {    
+    position: absolute;
+    top:0;
+    right: 0; 
+    div{
     width: 100px;
     height: 100px;   
     background: #CB997E;
     opacity: 0.4;
-    border-radius: 50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    display: flex;
-    position: absolute;
-    overflow-y: hidden;
-    right: 0;
-    top: 0;
-    
+    border-radius: 0 0 0 100%;
+
+    }
+
     /**/
 }
 
@@ -61,6 +55,7 @@
     background:#CB997E;
     text-transform: uppercase;
     width: 80%;
+    border: 1px solid #626060;
     border-radius: 20px;
 }
 
