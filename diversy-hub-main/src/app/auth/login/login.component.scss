@@ -1,3 +1,39 @@
+.grafismo-bottom {
+
+    width: 100px;
+    height: 100px;   
+    background: #CB997E;
+    opacity: 0.4;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    display: flex;
+    position: absolute;
+    overflow-y: hidden;
+    left: 0;
+    bottom: 0;
+    /**/
+}
+.grafismo-topo {
+
+    width: 100px;
+    height: 100px;   
+    background: #CB997E;
+    opacity: 0.4;
+    border-radius: 50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    display: flex;
+    position: absolute;
+    overflow-y: hidden;
+    right: 0;
+    top: 0;
+    
+    /**/
+}
+
+
+
 .form__container {
     display: flex;
     flex-direction: column;
@@ -53,23 +89,11 @@
 
 .login_background__logo {
     img {
-        width: 400px;
+        width: 300px;
         margin: 20px;
         margin-left: 100px;
     }
 }
-
-
-.welcome__text {
-    transform: skew(39deg);
-    text-align: center;
-    font-size: 65px;
-    color: #433577;
-    line-height: 72px;
-    letter-spacing: -0.01em;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 .welcome__img {
     width: 500px;
     margin-top: -20px;
@@ -117,8 +141,8 @@
         }
     }
 }
-
 .form__user_img {
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
