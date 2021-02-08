@@ -5,11 +5,12 @@ import { LoginComponent } from './login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { AuthRoutingModule } from './auth-routing.module';
+import { CadastrocvComponent } from './cadastrocv/cadastrocv.component';
 
 
 
 @NgModule({
-  declarations: [LoginComponent, SignUpComponent],
+  declarations: [LoginComponent, SignUpComponent, CadastrocvComponent],
   imports: [
     CommonModule,
     ReactiveFormsModule,
