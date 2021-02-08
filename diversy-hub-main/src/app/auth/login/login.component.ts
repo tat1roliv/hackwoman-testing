@@ -32,11 +32,11 @@ export class LoginComponent implements OnInit {
 
   onLogin(){
     console.log('oi')
-    this.authService.signIn(this.loginForm.value.email, this.loginForm.value.password).subscribe(
-      res => {
-        console.log(res)
-      }
-    );
+    this.router.navigate([''])
+    // this.authService.signIn(this.loginForm.value.email, this.loginForm.value.password).subscribe(
+    //   res => {
+    //   }
+    // );
   }
 
   toggleFieldTextType() {

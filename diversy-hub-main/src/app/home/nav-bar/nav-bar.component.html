@@ -1,20 +1,21 @@
 <div class="menu-nav">
     <nav>
         <ul>
-            <li class="active"><a href="">Vagas</a></li>
-            <li><a href="">Capacite-se</a></li>
-            <li><a href="">Empresas</a></li>
-            <li><a href="">Estágios Voluntários</a></li>
+            <li class="active"  ><a [routerLink]="['']" routerLinkActive="router-link-active">Vagas</a></li>
+            <li><a [routerLink]="['/mentorias']" routerLinkActive="router-link-active" >Capacite-se</a></li>
+            <li><a [routerLink]="['/empresas']" routerLinkActive="router-link-active" >Empresas</a></li>
+            <li><a [routerLink]="['/ongs']" routerLinkActive="router-link-active" >Estágios Voluntários</a></li>
             <li>
                 <div class="button__container">
-                    <button type="submit"  ref="" class="btn-entrar">Entrar</button>
+                    <button type="submit"  ref="" class="btn-entrar" [routerLink]="['/auth']" routerLinkActive="router-link-active">
+                        Entrar</button>
                 </div>
             </li>
             <li>
                 <div class="button__container">
-                    <button type="submit"  ref="" class="btn-cadastrar">Cadastrar</button>
+                    <button type="submit"  ref="" class="btn-cadastrar" [routerLink]="['/auth/cadastrar']" routerLinkActive="router-link-active">Cadastrar</button>
                 </div>
             </li>
         </ul>
     </nav>
-</div>   
+</div>
