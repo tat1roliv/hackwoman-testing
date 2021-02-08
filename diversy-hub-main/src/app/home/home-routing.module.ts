@@ -8,7 +8,7 @@ import { OngsComponent } from './ongs/ongs.component';
 const routes: Routes = [
   {path: 'home', component: VagasComponent},
   {path: 'home', component: MentoriasComponent},
-  {path: '', component: EmpresasComponent},
+  {path: 'home', component: EmpresasComponent},
   {path: '', component: OngsComponent} 
 ];
 
